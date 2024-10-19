@@ -1,0 +1,96 @@
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+    font-family: var(--font-family2);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+tr {
+    height: 100px;
+    border-bottom: 1px solid #ccc;
+}
+
+td {
+    vertical-align: middle;
+    padding: 10px;
+    text-align: center;
+}
+td img {
+    max-height: 100px;
+    max-width: 100px;
+}
+td button {
+    background-color: #150450;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.row-main-checkout{
+    display: flex;
+    flex-direction: column;
+}
+
+.view-cart-page-header{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 100px;
+    font-family: var(--font-family1);
+    color: var(--main-colour1);
+}
+
+.payment-form{
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    font-family: var(--font-family2);
+    font-weight: 400;
+    font-size: 18px;
+    flex-direction: column;
+}
+.payment-form label{
+    margin-top: 30px;
+}
+.payment-form select{
+    margin-top: 10px;
+    border: 1px solid var(--main-colour1);
+    height: 30px;
+}
+
+.payment-form input{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 30px;
+}
+/* p{
+    margin: auto;
+    margin-top: 10px;
+    font-family: var(--font-family2);
+    font-weight: 400;
+    font-size: 18px;
+} */
+
+.first-p{
+    margin-top: 50px;
+    margin: auto;
+    margin-top: 10px;
+    font-family: var(--font-family2);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.image{
+    display: flex;
+    width: 100%;
+}
+.img-img{
+    width: 100%;
+    margin-top: 0;
+
+}

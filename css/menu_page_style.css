@@ -1,0 +1,52 @@
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+    font-family: var(--font-family2);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+tr {
+    height: 100px;
+    border-bottom: 1px solid #ccc;
+}
+
+td {
+    vertical-align: middle;
+    padding: 10px;
+    text-align: center;
+}
+td img {
+    max-height: 100px;
+    max-width: 100px;
+}
+td button {
+    background-color: #150450;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.row-main{
+    display: flex;
+}
+
+.menu-page-header{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 100px;
+    font-family: var(--font-family1);
+    color: var(--main-colour1);
+}
+.image{
+    display: flex;
+    width: 100%;
+}
+.img-img{
+    width: 100%;
+    margin-top: 0;
+
+}

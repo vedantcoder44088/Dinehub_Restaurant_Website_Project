@@ -1,0 +1,93 @@
+.user-details-header{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 80px;
+    font-family: var(--font-family1);
+    color: var(--main-colour1);
+}
+
+.profile-row-1{
+    display: flex;
+    flex-direction: column;
+}
+.user-table-details{
+    font-family: var(--font-family2);
+    font-weight: 400;
+    font-size: 18px;
+    border-spacing: 0px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid var(--main-colour2);
+}
+
+.user-table-reservation-details{
+    font-family: var(--font-family2);
+    font-weight: 400;
+    font-size: 18px;
+    border-spacing: 0px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid var(--main-colour2);
+}
+.user-order-history-details{
+    font-family: var(--font-family2);
+    font-weight: 400;
+    font-size: 18px;
+    border-spacing: 0px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid var(--main-colour2);
+
+}
+table th, td {
+    padding: 10px 50px;
+    border: 1px solid var(--main-colour2);
+}
+
+.profile-row-2 p{
+    padding: 30px 0;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: var(--font-family2);
+    color: var(--main-colour1);
+}
+
+.profile-row-3 p{
+    padding: 30px 0;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: var(--font-family2);
+    color: var(--main-colour1);
+}
+
+.User-Details-section{
+    display: flex;
+    margin: 15px 0;
+    padding: 50px 0;
+
+}
+.user-table-details-section{
+    display: flex;
+    margin: 15px 0;
+    padding: 50px 0;
+    background-color: rgb(224, 224, 224);
+}
+
+.user-order-history-section{
+    display: flex;
+    margin: 15px 0;
+    padding: 50px 0;
+    
+}
+
+.image{
+    display: flex;
+    width: 100%;
+}
+.img-img{
+    width: 100%;
+    margin-top: 0;
+
+}
